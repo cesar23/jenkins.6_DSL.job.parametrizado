@@ -1,10 +1,10 @@
 // 1. aqui le decimos que crearemos una tarea
-job('DSL job - hijo 001') {
+job('DSL job - hijo 002') {
     // 2. descripcion de la tarea pondremos esto
     description('Job Generado desde (DSL job) ')
     // 3. Source manager
     scm {
-        git('https://github.com/macloujulian/jenkins.job.parametrizado','main') { node ->
+        git('https://github.com/cesar23/jenkins.6_DSL.job.parametrizado','main') { node ->
             node / gitConfigName('cesar_jenkins')
             node / gitConfigEmail('perucaos@gmail.com')
         }
