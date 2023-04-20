@@ -1,1 +1,2 @@
-# jenkins.6_DSL.job.parametrizado
+# jenkins.job.parametrizado
+El mismo Job booleano pero alojado en este repositorio
